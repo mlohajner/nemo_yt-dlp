@@ -9,10 +9,10 @@ Three modes:
 
 ## Usage
 
-It's just a copy-paste action. Copy a video URL, then "paste" it into a
-folder using the Nemo action. Everything else (reading the clipboard,
-validating the URL, parsing timestamps, running `yt-dlp`, handling
-errors, opening the result) happens automatically behind the scene.
+It's just a copy-paste action. Copy a video URL, then "paste" it into a folder.  
+Everything else (reading the clipboard, validating the URL, parsing
+timestamps, running `yt-dlp`, handling errors, opening the result)
+happens automatically behind the scene.
 
 1. Copy a video URL (YouTube, Facebook, or any supported site) to your clipboard.
 2. In Nemo, right-click inside the folder where you want the file, and pick
@@ -21,13 +21,9 @@ errors, opening the result) happens automatically behind the scene.
    notification pops up if something went wrong.
 
 In keyboard-shortcut mode it's the same behavior, except it
-always saves into a fixed default folder instead of asking you to pick one:
+always saves into a fixed default folder instead of asking you to pick one (default: /tmp/nemo_yt-dlp).
 
-```
-/tmp/nemo_yt-dlp
-```
-
-Copy a link - press the shortcut - done.
+Copy a link - click the shortcut - done.
 
 ## Features
 
