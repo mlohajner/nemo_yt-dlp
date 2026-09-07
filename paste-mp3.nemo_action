@@ -1,0 +1,9 @@
+[Nemo Action]
+Active=true
+Name=Paste MP3
+Comment=Download YouTube audio as MP3 into this directory
+Exec="<absolute_path_to>/mp3.sh" "%P"
+Icon-Name=xsi-audio-x-generic-symbolic
+Selection=none
+Extensions=any;
+Conditions=exec "<absolute_path_to>/not_desktop.sh" "%P";
