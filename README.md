@@ -1,4 +1,4 @@
-# Nemo Copy-Paste Actions for yt-dlp
+<h1> <img src="nemo.png" width="64" valign="middle" alt="Nemo icon">+<img src="dlp.png" width="64" valign="middle" alt="dlp icon"> Nemo Copy-Paste Actions for yt-dlp</h1>
 
 Three small shell scripts and nemo_actions for downloading video/audio
 from: YouTube, Facebook and any site supported by `yt-dlp`.  
