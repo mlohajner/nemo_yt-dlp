@@ -5,7 +5,7 @@ from: YouTube, Facebook and any site supported by `yt-dlp`.
 Three modes:  
 - a Nemo file manager action (right-click menu) or
 - custom keyboard shortcut (clipboard URL)
-- CLI command video.sh <destination> <URL>
+- CLI command video.sh \<destination\> \<URL\>
 
 ## Usage
 
