@@ -50,10 +50,10 @@ Copy a link - click the shortcut - done.
 
 ## Installation
 
-Inluded is `install.sh`, edit to check and verify the information provided.
+Via included `install.sh` - edit to check and verify the information provided.
 
 - INSTALL_DIR - is the location where scripts live
-- ACTIONS_DIR - is the nemo actions location
+- ACTIONS_DIR - is the nemo_actions location
 
 When ready:
 ```bash
