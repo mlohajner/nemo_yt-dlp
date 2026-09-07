@@ -1,7 +1,13 @@
 <h1> <img src="nemo.png" width="64" valign="middle" alt="Nemo icon"> + <img src="dlp.png" width="64" valign="middle" alt="dlp icon"> Nemo Copy-Paste Actions for yt-dlp</h1>
 
-Three small shell scripts and nemo_actions for downloading video/audio
-from: YouTube, Facebook and any site supported by `yt-dlp`.  
+Seamless yt-dlp integration for the Nemo file manager.
+No separate downloader GUI. No terminal commands. No need to manually specify the output directory.
+
+nemo_yt-dlp is not another YouTube downloader or media-conversion tool.
+Its goal is to make yt-dlp feel like a native part of Nemo's file-manager workflow.
+
+yt-dlp does the downloading; Nemo provides the UX.
+
 Three modes:  
 - a Nemo file manager action (right-click menu) or
 - custom keyboard shortcut (clipboard URL)
@@ -9,7 +15,7 @@ Three modes:
 
 ## Usage
 
-It's just a copy-paste action. Copy a video URL, then "paste" it into a folder.  
+Copy a URL, open the directory where you want the content, and use Nemo's context menu to paste it. That's it.
 Everything else (reading the clipboard, validating the URL, parsing
 timestamps, running `yt-dlp`, handling errors, opening the result)
 happens automatically behind the scene.
